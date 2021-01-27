@@ -91,7 +91,8 @@ h2{
 	font-weight: 200;
 	letter-spacing: 0.5rem;
 }
-.row{
+.about{
+	background-color: rgba(0,0,0,0.9);
 	position: relative;
 	width: cover;
 	min-height: 100vh;
