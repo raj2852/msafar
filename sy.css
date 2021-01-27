@@ -93,9 +93,9 @@ h2{
 }
 .row{
 	position: relative;
-	width: 105%;
+	width: cover;
 	min-height: 100vh;
-   
+ 	padding: 10px;  
     background-size: cover;
     display: flex;
     justify-content: center;
