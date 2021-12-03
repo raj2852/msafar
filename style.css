@@ -1,0 +1,103 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+.middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	position: relative;
+	display: block;
+	color: white;
+	font-size: 14px;
+	font-family: "montserrat";
+	text-decoration: none;
+	margin: 30px 0;
+	border: 2px solid #FF7F00;
+	padding: 14px 50px;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition: 1s all ease;
+}
+.btn::before{
+	background: #FF7F00;
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	transition: all 0.6s ease;
+}
+
+.btn1::before{
+	width: 0;
+	height: 100%
+}
+
+.btn:hover::before{
+	width: 100%;
+}
+.left{
+	box-sizing: border-box;
+	height: 40vh;
+	width: 40vw;
+	padding: 65px;
+	padding-left: 0;
+	background-color: #000;
+	background-size: cover;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 15px;
+	border-color: #fff;
+	/*float: left;*/
+	
+}
+.right{
+	box-sizing: border-box;
+	height: 40vh;
+	width: 40vw;
+	padding: 65px;
+	padding-left: 0;
+	background-color: #000;
+	background-size: cover;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 15px;
+	border-color: #fff;
+	/*float: right;*/
+}
+.left h5,.right h5{
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.15);
+	background-size: cover;
+}
+.query{
+	position: relative;
+	display: block;
+}
+#contact{
+	position: absolute;
+	box-sizing: border-box;
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+#search{
+	position: absolute;
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,122 @@
+body{
+	min-height: 1000px;
+
+}
+html{
+	scroll-behavior: smooth;
+
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 5px;
+	z-index: 1;
+	transition: 0.6s;
+	text-align: center;
+}
+header .logo{
+	position: relative;
+	font-weight: 700;
+	margin-left: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2rem;
+	letter-spacing: 2px;
+	transition: 0.6s;
+}
+header ul{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header ul li{
+	position: relative;
+	list-style: none;
+}
+header ul li a{
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 300;
+	transition: 0.6s;
+}
+
+.banner h2{
+	color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+	line-height: 1em;
+	padding-top: 20px;
+}
+.sec{
+	background: rgba(255,255,255,0.5);
+	padding: 100px;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+img{
+    display:block;
+    margin:0 auto 0 auto;
+}
+.container{
+	padding: 60px;
+}
+a{
+	text-align: center;
+}
+h2{
+	color: #fff;
+	font-weight: 200;
+	letter-spacing: 0.5rem;
+}
+.about{
+	background: linear-gradient(-45deg, #ee5425, #e71364, #089acf, #0bcea0);
+	border: 1px solid #fff;
+	box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	border-left: 1px solid rgba(255,255,255,0.5);
+	backdrop-filter: blur(5px);
+	position: relative;
+	width: cover;
+	min-height: 100vh;
+   overflow-x: hidden;
+   overflow-wrap: break-word;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: ;
+}
+.places{
+	position: relative;
+	width: cover;
+	min-height: 100vh;
+    background: linear-gradient(-45deg, #ee5425, #e71364, #089acf, #0bcea0);
+    border: 1px solid #fff;
+	box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	border-left: 1px solid rgba(255,255,255,0.5);
+	backdrop-filter: blur(5px);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    opacity: ;
+    align-items: center;
+    }
+    
+header{
+	padding: 5px 50px;
+	border-width: 100%;
+	border
+}
